@@ -54,36 +54,37 @@ p{
 .contenedor{
     display: flex;
     flex-direction: column;
-    width: 100%;
-    margin: 10px 10px 10px 0;
+    width: 80%;
+    margin: 10px 10px 10px 40px;
     justify-content: center;
-    border: 10px solid rgba(2, 1, 0, .3)
+    
 }
 
 .caja{
-    width: 60%;
-    height: 60%;
+    width: 100%;
+    height: 100%;
     display: flex;
     padding: 40px;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
     background-color: #9978c6;
     opacity: .7;
-    border-radius: 25px
+    border-radius: 25px;
+    align-content: space-between;
+
 }
 
 .caja img{
     width: 300px;
     height: fit-content;
     border-radius: 50%;
-    flex-wrap: wrap
 }
 
 .caja{
     font-size: 12px;
     font-family: 'Times New Roman', Times, serif;
-    align-content: flex-start;
+    align-content: center;
 }
 
 .cabecera{
