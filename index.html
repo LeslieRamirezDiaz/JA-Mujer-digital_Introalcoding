@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,81 +10,109 @@
     <script defer src="./main.js"></script>
     <title>Club de lectura: El jardín de las hespérides</title>
 </head>
+
 <body>
     <header>
-        <div>
-            <img src="./imágenes/Logo Club de Lectura libros.jpg" alt="Logo de página">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="./imágenes/test.jpg" alt="Logo de página">
+                </div>
+                <div class="col-md-8">
+                    <nav class="nav">
+                        <a class="nav-link active" href="#">Active</a>
+                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                      </nav>
+                </div>
+            </div>
         </div>
-    
-
-        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-            <li class="nav-item" role="presentation">
-              <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Página principal</button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Nosotras</button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Agenda</button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contacto</button>
-              </li>
-          </ul>
-          <div class="tab-content" id="pills-tabContent">
-            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">...</div>
-            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
-            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
-          </div>
-
     </header>
-    <div class="cabecera">
-        <h1> Bienvenidx al Jardín de las Hespérides, donde la literatura y las girlies se toman un té. 
-        </h1>
-    </div>
 
-
-    <div class="contenedor">
-        <div class="caja">
-            <h2>¿Club de lectura? ¿Eso con qué se come?</h2>
-            <img src="./imágenes/Club de lectura.png" alt="Qué_es_un_club_de_lectura">
-            <p>Se trata de una estructura cooperativa que consiste en la lectura del mismo libro por parte de un pequeño grupo, de manera individual y también conjunta, siguiendo una serie de pasos que aseguren la comprensión y el disfrute. Generalmente se proponen los libros a tratar. En nuestro caso, no olvides visitar la Agenda para saber qué libros podrás votar mes con mes. ¡No es necesario que estés con nosotros todos los meses! Lo que haremos básicamente será leer un libro de forma individual, elegirás tus citas favoritas, los fragmentos que más te gustaron y harás notas sobre lo que te parezca más importante por tu cuenta. Luego, el segundo sábado de cada mes nos reuniremos para platicar sobre determinados aspectos del libro. No te preocupes, todas nuestras colaboradoras son mediadoras de lectura certificadas y con experiencia. Ellas sabrán cómo orientar la plática. ¡Básicamente es cháchara sobre literatura!</p>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="cabecera col-md-6">
+                <h1> Bienvenidx al Jardín de las Hespérides, donde la literatura y las girlies se toman un té.
+                </h1>
+            </div>
         </div>
 
+        <div class="contenedor">
+            <div class="caja">
+                <h2>¿Club de lectura? ¿Eso con qué se come?</h2>
+                <img src="./imágenes/Club de lectura.png" alt="Qué_es_un_club_de_lectura">
+                <p>Se trata de una estructura cooperativa que consiste en la lectura del mismo libro por parte de un
+                    pequeño grupo, de manera individual y también conjunta, siguiendo una serie de pasos que
+                    aseguren la comprensión y el disfrute. Generalmente se proponen los libros a tratar. En nuestro
+                    caso, no olvides visitar la Agenda para saber qué libros podrás votar mes con mes. ¡No es
+                    necesario que estés con nosotros todos los meses! Lo que haremos básicamente será leer un libro
+                    de forma individual, elegirás tus citas favoritas, los fragmentos que más te gustaron y harás
+                    notas sobre lo que te parezca más importante por tu cuenta. Luego, el segundo sábado de cada mes
+                    nos reuniremos para platicar sobre determinados aspectos del libro. No te preocupes, todas
+                    nuestras colaboradoras son mediadoras de lectura certificadas y con experiencia. Ellas sabrán
+                    cómo orientar la plática. ¡Básicamente es cháchara sobre literatura!</p>
+            </div>
 
 
-        <div class="caja">
-            <img src="./imágenes/Club de lectura virtual.png" alt="Club_de_lectura_virtual">
-            <h2>¿Por qué pretender a un círculo de lectura virtual?</h2>
-            <p>Somos consientes que los círculos de lectura presenciales son todo un deleite. Sin embargo, con el aumento de las herramientas digitales sería un desperdicio no aprovechar también los espacios virtuales para hacer comunidad lectora (exacto, nuestro plan es conquistar el mundo a lo largo y a lo ancho). Sabemos que aunque existen cientos de proyectos de mediación, no todos cuentan con el mismo alcance. Por ello queremos proporcionar una opción gratuita y amable a las personas que quieran iniciarse en este mundo, o que, por el contrario, ya se encuentran familiarizados pero no les moleste esperar unos pasos para que más gente se nos una en este maravilloso mundo. 
 
-                Asimismo, somos consientes de que el ritmo tan acelerado de la vida actjsl apenas y da tiempo para leer y compartir lecturas. Por ello nos proponemos ocupar el menor tiempo posible pegado a la pantalla para que tú puedas aporpiarte de tu texto como prefieras y nos compartas tu experiencia después. </p>
-        </div>
+            <div class="caja">
+                <img src="./imágenes/Club de lectura virtual.png" alt="Club_de_lectura_virtual">
+                <h2>¿Por qué pretender a un círculo de lectura virtual?</h2>
+                <p>Somos consientes que los círculos de lectura presenciales son todo un deleite. Sin embargo, con
+                    el aumento de las herramientas digitales sería un desperdicio no aprovechar también los espacios
+                    virtuales para hacer comunidad lectora (exacto, nuestro plan es conquistar el mundo a lo largo y
+                    a lo ancho). Sabemos que aunque existen cientos de proyectos de mediación, no todos cuentan con
+                    el mismo alcance. Por ello queremos proporcionar una opción gratuita y amable a las personas que
+                    quieran iniciarse en este mundo, o que, por el contrario, ya se encuentran familiarizados pero
+                    no les moleste esperar unos pasos para que más gente se nos una en este maravilloso mundo.
 
-        <div class="caja">
-            <img src="./imágenes/Jardín de.png" alt="Proyecto_El_Jardín">
-            <h2>¿Quiénes somos "El jardín de las hespérides - círculo de lectura virtual"? ¿De dónde viene nuestro nombre?</h2>
-            <p>Somos un círculo de lectura que brinda un espacio seguro (sobre todo para chicas y comunidad LGBT+, pero si nuestra selección de libros y temas de abordaje te interesan, también eres bienvenidx a unirte) para todxs aquellxs lectores que estén ávidxs de lecturas hechas por y para mujeres y comunidad queer. Este grupo se conforma por cuatro mediadoras de lectura experimentadas (todas amigas del alma) con gusto por los temas irreverentes, los textos que son dejados fuera del canon literario y con muchas ganas de hacer significativas las lecturas de miles de textos que nos han cautivado con ayuda de una comunidad. Justamente de ahí viene nuestro nombre. El jardín de las hespérides hace referencia a un sitio mitológico donde ninfas protegen valiosísimas manzanas de oro. Sin embargo, nosotros no buscamos proteger estas manzanas preciadas, que para nosotros son los miles y miles de textos que se han originado en la literartura. Nosotras buscamos compartirlas. Disfrutarlas con alguien más.Sé parte de este jardín, no te arrepentirás.</p>
-        </div>
+                    Asimismo, somos consientes de que el ritmo tan acelerado de la vida actjsl apenas y da tiempo
+                    para leer y compartir lecturas. Por ello nos proponemos ocupar el menor tiempo posible pegado a
+                    la pantalla para que tú puedas aporpiarte de tu texto como prefieras y nos compartas tu
+                    experiencia después. </p>
+            </div>
+
+            <div class="caja">
+                <img src="./imágenes/Jardín de.png" alt="Proyecto_El_Jardín">
+                <h2>¿Quiénes somos "El jardín de las hespérides - círculo de lectura virtual"? ¿De dónde viene
+                    nuestro nombre?</h2>
+                <p>Somos un círculo de lectura que brinda un espacio seguro (sobre todo para chicas y comunidad
+                    LGBT+, pero si nuestra selección de libros y temas de abordaje te interesan, también eres
+                    bienvenidx a unirte) para todxs aquellxs lectores que estén ávidxs de lecturas hechas por y para
+                    mujeres y comunidad queer. Este grupo se conforma por cuatro mediadoras de lectura
+                    experimentadas (todas amigas del alma) con gusto por los temas irreverentes, los textos que son
+                    dejados fuera del canon literario y con muchas ganas de hacer significativas las lecturas de
+                    miles de textos que nos han cautivado con ayuda de una comunidad. Justamente de ahí viene
+                    nuestro nombre. El jardín de las hespérides hace referencia a un sitio mitológico donde ninfas
+                    protegen valiosísimas manzanas de oro. Sin embargo, nosotros no buscamos proteger estas manzanas
+                    preciadas, que para nosotros son los miles y miles de textos que se han originado en la
+                    literartura. Nosotras buscamos compartirlas. Disfrutarlas con alguien más.Sé parte de este
+                    jardín, no te arrepentirás.</p>
+            </div>
 
         </div>
     </div>
 
     <div class="card">
         <div class="card-header">
-          Hespérides
+            Hespérides
         </div>
         <div class="card-body">
-          <blockquote class="blockquote mb-0">
-            <p>Parió la noche al maldito Moros, a la negra Ker y a Thanatos; parió también a Hypnos y engendró a la tribu de los Sueños. Luego además la diosa, la oscura Noche, dió a luz, sin acostarse con nadie a la Burla, al doloroso Lamento y a las Hespérides que, al otro lado del ilustre Océano, cuidan las bellas manzanas de oro y los árboles que producen el fruto</p>
-            <footer class="blockquote-footer">Hesíodo, traducción A. Pérez Jiménez y A. Martínez Díez; <cite title="Source Title">Teogonía 213-126</cite></footer>
-          </blockquote>
+            <blockquote class="blockquote mb-0">
+                <p>Parió la noche al maldito Moros, a la negra Ker y a Thanatos; parió también a Hypnos y engendró a
+                    la tribu de los Sueños. Luego además la diosa, la oscura Noche, dió a luz, sin acostarse con
+                    nadie a la Burla, al doloroso Lamento y a las Hespérides que, al otro lado del ilustre Océano,
+                    cuidan las bellas manzanas de oro y los árboles que producen el fruto</p>
+                <footer class="blockquote-footer">Hesíodo, traducción A. Pérez Jiménez y A. Martínez Díez; <cite
+                        title="Source Title">Teogonía 213-126</cite></footer>
+            </blockquote>
         </div>
-      </div>
-    
+    </div>
 
     <div class="container bg-primary">
-        <p class="text-white">La transición de las leyendas al terror psicológico estuvo marcada por la película de El
+        <p class="text-white">La transición de las leyendas al terror psicológico estuvo marcada por la película de
+            El
             proyecto de la bruja de Blair (1999), más específicamente con la campaña publicitaria de
             ésta.
 
@@ -118,7 +147,8 @@
             imaginario, o como recelo o aprensión que alguien tiene de que le suceda algo contrario a lo que
             desea. La palabra griega que corresponde al latín “metus”, es “fobos”, raíz etimológica de la palabra
             “fobia”.” (Alva, Barrios y Antúnez, 2010: 7)
-            Usualmente el miedo, perfectamente definido por la R.A.E desde el punto de vista neurocognitivo, va ligado a
+            Usualmente el miedo, perfectamente definido por la R.A.E desde el punto de vista neurocognitivo, va
+            ligado a
             la ansiedad. Y así los doctores autores de este artículo continúan:
         </p>
     </div>
@@ -189,7 +219,8 @@
         <div class="noticias">
             <h1>Actores macabros</h1>
             <div id="contenido">
-                <p>La capacidad de reinventarse es muy importante para un actor no solo porque le permite probarse como
+                <p>La capacidad de reinventarse es muy importante para un actor no solo porque le permite probarse
+                    como
                     intérprete, también porque es la mejor manera de crecer dentro de la industria y acceder a más
                     papeles y por ende mejores ingresos. </p>
             </div>
@@ -201,8 +232,10 @@
             <div class="noticias">
                 <h1>Casas productoras de terror</h1>
                 <div id="contenido2">
-                    <p>La capacidad de reinventarse es muy importante para un actor no solo porque le permite probarse
-                        como intérprete, también porque es la mejor manera de crecer dentro de la industria y acceder a
+                    <p>La capacidad de reinventarse es muy importante para un actor no solo porque le permite
+                        probarse
+                        como intérprete, también porque es la mejor manera de crecer dentro de la industria y
+                        acceder a
                         más papeles y por ende mejores ingresos. </p>
                 </div>
                 <button onclick='muestra_oculta("contenido2")' class="btn btn-primary" form="contenido2">+</button>
@@ -214,7 +247,8 @@
                     <h1>Tropos comunes</h1>
                     <div id="contenido3">
                         <p>La capacidad de reinventarse es muy importante para un actor no solo porque le permite
-                            probarse como intérprete, también porque es la mejor manera de crecer dentro de la industria
+                            probarse como intérprete, también porque es la mejor manera de crecer dentro de la
+                            industria
                             y acceder a más papeles y por ende mejores ingresos. </p>
                     </div>
                     <button onclick='muestra_oculta("contenido3")' class="btn btn-primary" form="contenido3">+</button>
@@ -237,12 +271,9 @@
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen></iframe>
             </div>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-                crossorigin="anonymous"></script>
-</body>
-
-</html>
-    
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
 </body>
 </html>
