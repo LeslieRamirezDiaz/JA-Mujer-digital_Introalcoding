@@ -9,6 +9,25 @@ header{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+a:link, a:visited, a:active {
+    text-decoration:none;
+} 
+
+a{
+    text-decoration: none;
+    font-family: "Kalam";
+    font-weight: bold;
+    color: #3a265a;
+    font-size:xx-large;
+}
+
+.bd-navbar {
+    min-height: 4rem;
+    background-color: #3a265a;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1);
+    padding: auto;
+}
+
 body{
     background-image: linear-gradient(to right top, #bb4c8b, #b35ba2, #a76ab6, #9978c6, #8886d2, #7795e0, #63a4ea, #4fb2f1, #31c6f9, #1fd9fb, #37eaf8, #5ffbf1);
 }
@@ -26,15 +45,18 @@ header ul li{
 header img{
     width: 250px;
     padding: 20px;
+    border-radius: 40%;
 }
 
 .card{
     width: 45%;
-    align-content: end;
+    margin-left: auto;
+    margin-right: 0;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 img{
-    width: 150px;
+    width: 300px;
 }
 
 h2{
@@ -51,6 +73,7 @@ p{
   font-style: normal;
 
 }
+
 
 .contenedor{
     display: flex;
@@ -89,9 +112,14 @@ p{
 }
 
     .cabecera{
-        color: #333;
+        color: #d6c8c8;
         padding: 20px;
         transition: color 0.3s ease-in-out;
+        background-color: #563d7c;
+        opacity: .8;
+        border-radius: 100px 0px 40%;
+        margin: 20px 20px 20px 20px;
+        padding-top: 30px;
     }
     .cabecera:hover{
         color: #e83f8b;
@@ -104,5 +132,28 @@ p{
         font-family: "Playball", cursive;
         font-weight: 100;
         font-style: normal;
-        text-align: justify;
+        text-align: center;
+}
+
+.videos{
+    padding: 50px;
+    margin: 30px;
+}
+
+.quote_image img{
+    border-radius: 80%;
+}
+
+.carrusel{
+    padding: 40px;
+}
+
+.footer_end {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position:;
+    bottom: 0;
+    width: 100%;
 }
