@@ -57,12 +57,15 @@ header img{
 
 img{
     width: 300px;
+    display:flex;
 }
 
 h2{
     font-size: 70px;
     color: rgb(45, 122, 98);
     font-family: "Playball", cursive;
+    text-align: center;
+    padding: auto;
 }
 
 p{
@@ -71,6 +74,7 @@ p{
     font-family: "Kalam", cursive;
   font-weight: 400;
   font-style: normal;
+  text-align: justify;
 
 }
 
@@ -148,6 +152,20 @@ p{
     padding: 40px;
 }
 
+.table{
+text-align: justify;
+font-family: 'Times New Roman', Times, serif;
+align-items: center;
+}
+
+.caja_agenda{
+    background-color: #cb75aa;
+    padding: 70px 70px 30px 30px;
+    font-family: "kalam";
+    border-radius: 100% 100% 25rem 50px / 250px 80% 20rem;
+    margin: 40px;
+    text-align: justify;
+}
 .footer_end {
     background-color: #333;
     color: white;
@@ -157,3 +175,4 @@ p{
     bottom: 0;
     width: 100%;
 }
+
