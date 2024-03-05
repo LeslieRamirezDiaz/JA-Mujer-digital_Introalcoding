@@ -166,12 +166,12 @@ align-items: center;
     margin: 40px;
     text-align: justify;
 }
+
 .footer_end {
     background-color: #333;
     color: white;
     text-align: center;
     padding: 20px;
-    position:;
     bottom: 0;
     width: 100%;
 }
